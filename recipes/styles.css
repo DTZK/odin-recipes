@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Apply to the entire page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Wrap all content in a container */
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.centered-list-wrapper {
+    text-align: center; /* Center the entire block */
+    margin: 20px 0;
+}
+
+.centered-list {
+    display: inline-block;         /* Allows centering the list */
+    text-align: left;              /* Keeps bullets and text aligned */
+    list-style-position: outside;  /* Bullets stay outside the text block */
+    padding-left: 20px;            /* Optional spacing */
+}
